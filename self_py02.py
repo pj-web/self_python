@@ -1,13 +1,14 @@
 users_time = int(input('Введите время от 0 до 23: '))
 
 
-if 4 < users_time < 11:
+if 4 <= users_time <= 11:
     print("Доброе утро!")
-elif 11 < users_time < 17:
+elif 11 < users_time <= 17:
     print("Добрый день!")
-elif 17 < users_time < 22:
+elif 17 < users_time <= 22:
     print("Добрый вечер!")
-els
+else:
+    print("Доброй ночи!")
 
 # - Запрашивать у пользователя текущий час (от 0 до 23)
 # - Выводить приветствие в зависимости от времени:
